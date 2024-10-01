@@ -22,3 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+Ruby version 3.3.5
+
+1. learning about which files need to be gitignored
