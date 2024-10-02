@@ -26,3 +26,4 @@ Things you may want to cover:
 Ruby version 3.3.5
 
 1. learning about which files need to be gitignored
+2. initial file setup - initial failing test (CI/test)
