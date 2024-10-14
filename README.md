@@ -27,6 +27,7 @@ Ruby version 3.3.5
 
 1. learning about which files need to be gitignored
 2. initial file setup - initial failing test (CI/test)
+3. transitioning from mongo to mysql. having to redifne relationships between models
 
 getting it going
 
