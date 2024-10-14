@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2024_10_14_172622) do
+ActiveRecord::Schema[7.2].define(version: 2024_10_14_182317) do
   create_table "active_storage_attachments", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.string "name", null: false
     t.string "record_type", null: false
@@ -49,6 +49,19 @@ ActiveRecord::Schema[7.2].define(version: 2024_10_14_172622) do
     t.boolean "has_water"
     t.boolean "has_ice"
     t.boolean "has_rings"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "stars", charset: "utf8mb3", force: :cascade do |t|
+    t.string "name"
+    t.string "star_type"
+    t.string "colour"
+    t.string "core_element"
+    t.integer "circumference"
+    t.integer "diameter"
+    t.string "mass"
+    t.string "gravitational_pull"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
