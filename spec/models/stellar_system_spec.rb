@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe StellarSystem, type: :model do
-    it'is a valid solar system with valid attributes' do
+    it 'is a valid solar system with valid attributes' do
       stella_system = StellarSystem.new(
         name: "Alpha Centuri",
         number_of_stars: 3,
